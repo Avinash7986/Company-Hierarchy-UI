@@ -1,0 +1,39 @@
+.move {
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.move__team {
+  color: #333;
+  font-size: 18px;
+}
+
+.move__team span {
+  font-weight: 500;
+}
+
+.move__head {
+  text-align: center;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.move__label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2e2e2e;
+  margin: 10px 0;
+}
+
+.move select {
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  padding-right: 10px;
+}

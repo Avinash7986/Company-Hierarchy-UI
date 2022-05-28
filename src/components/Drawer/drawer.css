@@ -1,0 +1,53 @@
+.drawer {
+  background: #fff;
+  width: 400px;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 600px) {
+  .drawer {
+    width: 80%;
+  }
+}
+
+.drawer-container.open .right {
+  transform: translateX(0);
+}
+
+.drawer.right {
+  transition: all 0.3s ease;
+  transform: translateX(100%);
+}
+
+.close-icon {
+  font-size: 32px;
+  margin: 10px 15px;
+  cursor: pointer;
+}
+
+.backdrop {
+  visibility: hidden;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.drawer-container.open .backdrop {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 999;
+}

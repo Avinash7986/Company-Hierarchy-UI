@@ -1,0 +1,10 @@
+.edit-team {
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.edit-team h2 {
+  text-align: center;
+}

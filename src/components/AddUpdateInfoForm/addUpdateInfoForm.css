@@ -1,0 +1,10 @@
+.update-wrapper {
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.update-wrapper h2 {
+  text-align: center;
+}

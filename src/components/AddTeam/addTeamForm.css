@@ -1,0 +1,16 @@
+.team-form {
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-form h2 {
+  text-align: center;
+}
+
+.lead {
+  font-weight: bold;
+  font-size: 1.125rem;
+  margin: 20px 0;
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+.top-container {
+  align-self: flex-end;
+  padding: 20px 50px 20px 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .top-container {
+    align-self: center;
+  }
+}
+
+.top-search {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.top-search svg {
+  font-size: 20px;
+  color: #64749a;
+}
+
+.top-search p {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  color: #3e4462;
+  font-weight: 500;
+}
